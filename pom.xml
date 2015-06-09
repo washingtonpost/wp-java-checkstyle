@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>wp-java-checkstyle</artifactId>
     <packaging>jar</packaging>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <name>Washington Post checkstyle checks, in JAR form</name>
 
     <parent>
@@ -13,7 +13,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:WPMedia/wp-java-checkstyle.git</developerConnection>
-        <tag>1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
