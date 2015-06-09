@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>wp-java-checkstyle</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>Washington Post checkstyle checks, in JAR form</name>
+
+    <parent>
+        <groupId>com.washingtonpost</groupId>
+        <artifactId>wp-parent-pom</artifactId>
+        <version>1.2.0</version>
+    </parent>
+
+    <scm>
+        <developerConnection>scm:git:git@github.com:WPMedia/wp-java-checkstyle.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <properties>
+        <versionCheckstyle>5.7</versionCheckstyle>
+        <versionJunit>4.12</versionJunit>
+    </properties>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
+
+</project>
