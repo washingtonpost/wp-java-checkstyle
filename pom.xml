@@ -8,18 +8,13 @@
     <parent>
         <groupId>com.washingtonpost</groupId>
         <artifactId>wp-parent-pom</artifactId>
-        <version>1.2.0</version>
+        <version>1.2.1</version>
     </parent>
 
     <scm>
         <developerConnection>scm:git:git@github.com:WPMedia/wp-java-checkstyle.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
-
-    <properties>
-        <versionCheckstyle>5.7</versionCheckstyle>
-        <versionJunit>4.12</versionJunit>
-    </properties>
 
     <build>
         <resources>
