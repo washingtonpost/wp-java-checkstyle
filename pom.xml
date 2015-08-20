@@ -1,18 +1,16 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.washingtonpost</groupId>
     <artifactId>wp-oss-parent-pom</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>wp-oss-parent-pom</name>
     <description>Washington Post Master Public Parent POM</description>
 
     <scm>
         <connection>scm:git:git@github.com:WPMedia/wp-java-checkstyle.git</connection>
         <developerConnection>scm:git:git@github.com:WPMedia/wp-java-checkstyle.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>0.0.1</tag>
         <url>https://github.com/washingtonpost/wp-oss-parent-pom.git</url>
     </scm>
     
@@ -352,7 +350,7 @@
                         <configuration combine.self="override">
                             <mavenExecutorId>forked-path</mavenExecutorId>
                             <useReleaseProfile>false</useReleaseProfile>
-                            <arguments>${arguments} -Psonatype-oss-release</arguments>
+                            <releaseProfiles>release-opensource</releaseProfiles>
                             <tagNameFormat>@{project.version}</tagNameFormat>
                         </configuration>
                     </plugin>
