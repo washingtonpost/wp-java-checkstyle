@@ -2,17 +2,19 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>wp-java-checkstyle</artifactId>
     <packaging>jar</packaging>
-    <version>1.2-SNAPSHOT</version>
+    <version>2.0-SNAPSHOT</version>
     <name>Washington Post checkstyle checks, in JAR form</name>
 
     <parent>
         <groupId>com.washingtonpost</groupId>
-        <artifactId>wp-parent-pom</artifactId>
-        <version>1.2.1</version>
+        <artifactId>wp-oss-parent-pom</artifactId>
+        <version>0.0.8</version>
     </parent>
 
     <scm>
+        <connection>scm:git:git@github.com:WPMedia/wp-java-checkstyle.git</connection>
         <developerConnection>scm:git:git@github.com:WPMedia/wp-java-checkstyle.git</developerConnection>
+        <url>https://github.com/washingtonpost/wp-java-checkstyle</url>
         <tag>HEAD</tag>
     </scm>
 
